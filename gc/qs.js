@@ -26,7 +26,6 @@ function drawChart() {
         'title':'How Much Pizza I Ate Last Night',
         'width':400,
         'height':300,
-        colors: ['hsl(100,1%,1%)', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6']
     };
 
     // Instantiate and draw our chart, passing in some options.
