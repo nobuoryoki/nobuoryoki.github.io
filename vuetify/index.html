@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="style.css" >
-
 </head>
 <body>
-
-  <h2>身長と体重を入力したら、適正体重を計算する例</h2>
-
   <div id="app">
     <v-app>
       <v-main>
-        <p>身長<input v-model.number="shincho" type="number">cm</p>
-        <p>体重<input v-model.number="taiju" type="number">kg</p>
-        <p>適正体重: {{ hyojun_taiju.toFixed(1) }} kg</p>
-        <p>判定: {{ hantei }} </p>
+        <v-container>Hello world</v-container>
       </v-main>
     </v-app>
   </div>
@@ -30,34 +21,6 @@
     new Vue({
       el: '#app',
       vuetify: new Vuetify(),
-      data: {
-  			shincho: 160,
-  			taiju: 60,
-      },
-  		computed: {
-  			hyojun_taiju: function () {
-	  			return ((this.shincho)/100)**2 * 22;
-			  },
-			  bmi: function () {
-				  return this.taiju / (this.shincho/100)**2;
-			  },
-			  hantei: function() {
-				  if (this.bmi < 18.5) {
-					  return "低体重(痩せ型)";
-				  } else if ((18.5 <= this.bmi) && (this.bmi < 25)) {
-					  return "普通体重";
-				  } else if ((25 <= this.bmi) && (this.bmi < 30)) {
-					  return "肥満(1度)";
-				  } else if ((30 <= this.bmi) && (this.bmi < 35)) {
-					  return "肥満(2度)";
-				  } else if ((35 <= this.bmi) && (this.bmi < 40)) {
-					  return "肥満(3度)";
-				  } else if (40 <= this.bmi) {
-					  return "肥満(4度)";
-				  }
-			  }
-		  }
-
     })
   </script>
 </body>
