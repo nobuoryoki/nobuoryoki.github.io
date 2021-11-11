@@ -1,4 +1,4 @@
-https://nobuoryoki.github.io でアクセスできる．
+https://nobuoryoki.github.io/agapanthus.html で，ここに置かれている agapanthus.html にアクセスできる．
 
 
 GitHub Pages について 
