@@ -1,5 +1,5 @@
 ## Projects
 
-[Penrose Tiles](./projects/penrosetiles/)
+### [Penrose Tiles](./projects/penrosetiles/)
 
-[Girih Tiles](./projects/girihtiles/)
+### [Girih Tiles](./projects/girihtiles/)
