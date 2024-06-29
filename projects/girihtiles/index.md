@@ -3,7 +3,7 @@
 Ayumi Sato and Nobuo Ryoki
 
 <div>
-<iframe src="https://www.youtube.com/embed/RNbaDg0-6VQ"></iframe>
+<iframe src="https://www.youtube.com/embed/RNbaDg0-6VQ" width="560" height="315"></iframe>
 </div>
 
 
