@@ -7,4 +7,4 @@ Ayumi Sato and Nobuo Ryoki
 </div>
 
 
-[Girih Tiles](https://www.thingiverse.com/thing:5844755)
+[Girih Tiles (Thingiverse)](https://www.thingiverse.com/thing:5844755)
