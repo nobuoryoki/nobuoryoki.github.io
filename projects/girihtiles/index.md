@@ -1,4 +1,4 @@
-## Girih Tiles
+# Girih Tiles
 
 Ayumi Sato and Nobuo Ryoki
 
