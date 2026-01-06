@@ -20,5 +20,5 @@ function setup() {
 function draw() {
   background(255);
   // 映像をキャンバスに描画
-  image(capture, 0, 0, width, height);
+  image(capture, 0, 0, 320, 240);
 }
