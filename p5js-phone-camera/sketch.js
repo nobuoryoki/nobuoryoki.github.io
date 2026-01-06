@@ -6,7 +6,7 @@ function setup() {
   // カメラオプションを設定
   const constraints = {
     video: {
-      facingMode: "user" // フロントカメラを指定
+      facingMode: "environment"
     }
   };
 
